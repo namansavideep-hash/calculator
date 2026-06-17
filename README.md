@@ -80,6 +80,7 @@ function clearAll() {
 }
 
 function backspace() {
+  
   if (justCalc) return;
   current = current.length > 1 ? current.slice(0, -1) : '0';
   updateDisplay();
